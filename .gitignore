@@ -1,0 +1,17 @@
+# 仮想環境（venv）を除外
+venv/
+.env
+
+# Python のキャッシュファイルを除外
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite のデータベースファイルを除外（テストデータなのでGitHubには不要）
+attendance.db
+
+# ログファイルを除外
+*.log
+
+# VSCode の設定ファイルを除外
+.vscode/
